@@ -1,0 +1,14 @@
+[config]
+
+[templates.neovim]
+input_path = '~/.config/matugen/template.lua'
+output_path = '~/.config/nvim/generated.lua'
+post_hook = 'pkill -SIGUSR1 nvim'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/vesktop/theme.css'
+output_path = '~/.var/app/dev.vencord.Vesktop/config/vesktop/themes/theme.css'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
